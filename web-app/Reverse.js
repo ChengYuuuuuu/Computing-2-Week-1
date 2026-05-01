@@ -14,7 +14,7 @@ const Reverse = Object.create(null);
  * @returns {string} The same string with the order of it's characters reversed.
  */
 Reverse.reverse = function (string) {
-    // Implemention is to convert the string to an array of characters.
+    // Implementation is to convert the string to an array of characters.
     // Reverse the order of the array, then recombining into a single string.
     return string.split("").reverse().join("");
 };
